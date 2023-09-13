@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Accessing</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+	.summa{
+	height: 200px;
+	width: 500px;
+	margin-top:30px;
+	margin-bottom:30px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px;
+	background-color: white;
+	}
+	#i1{
+	height : 530px;
+	width : 1340px;
+	}
+	.image{
+	height:380px;
+	width: 500px;
+	border-radius: 15px;
+	box-shadow: 0 0 10px;
+	}
+</style>
+</head>
+<body>
+	
+	<img src="\Grp1.JPEG" alt="Image" id="i1"  >
+	<fieldset >
+	<center><h1>Area Paitiyam's</h1></center><br><br>
+	<legend > Area Paitiyam's</legend>
+   <center> <img id="Logesh" src="\Logesh.JPEG" alt="Image" class="image"  >
+	<fieldset class="summa" style="display: none;" id="myFieldset">
+		<p>Name: Logesh <br><br> Call as : Loduku Pandi<br><br> Work : Painter <br><br> Location: Namakkal(Pothanur)<br><br>Hobby : Make troble to others 🗿</p>
+	</fieldset><br><br>
+	 <img src="\Maith.JPEG" alt="Image" class="image" id="Maith" >
+	<fieldset class="summa" id="myFieldse" style="display: none;" >
+		<p>Name: Maithreyan V <br><br> Call as : Mottapa <br><br>Work : CNC Operator / Youtuber <br><br>Location: Chennai(Maraimalainagar)<br><br>  Hobby : Make a vlog 🏍️</p>
+	</fieldset>
+	<marquee behavior="scroll" direction="up" scrollamount="10">
+	<img src="\Grp2.JPEG" alt="Image" id="i2"  >
+	</marquee>
+	<img src="\Kiruba.JPEG" alt="Image" class="image" id="Kiruba" >
+	<fieldset class="summa" id="myFields" style="display: none;">
+		<p>Name: Kirubakaran S <br><br> Call as : Kiyoo <br><br>Work : CNC Operator <br><br>Location: Chennai(Maraimalainagar)<br><br>  Hobby : Playing carrom in room🪂</p>
+	</fieldset><br><br>
+	<img src="\Mano.JPEG" alt="Image"class="image" id="Mano"  >
+	<fieldset class="summa" id="myField"style="display: none;">
+		<p>Name: Mano G / Vivek G<br><br> Call as : Bro <br><br>Work : Software Engineer (Tester Q/A) <br><br>Location: Pune<br><br>  Hobby : Watching Cricket 🏏 </p>
+	</fieldset>
+	<marquee behavior="scroll" direction="down" scrollamount="10">
+	<img src="\Grp3.JPEG" alt="Image" id="i3"  >
+	</marquee>
+	<img src="\Karthi.JPEG" alt="Image" class="image" id="Karthi" >
+	<fieldset class="summa" id="myFiel" style="display: none;">
+		<p>Name: Karthikeyan S<br><br> Call as : Karthi <br><br>Work : Searching for job (Well😁 Velah illathavanu sollalam )<br><br>Location: Chennai(Tambaram)<br><br>  Hobby : Sollurah alavuku onnum illah 😅 </p>
+	</fieldset><br><br>
+	<img src="\Madhan.JPEG" alt="Image" class="image"  id="Madhan">
+	<fieldset class="summa"id="myFie" style="display: none;">
+		<p>Name: Madhanreyan V<br><br> Call as : TunTun <br><br>Work : Waiting for call letter (Well😁 Velah illathavanu sollalam )<br><br> Location: Namakkal(Pothanur)<br><br>  Hobby : Playing shuttle in morning 🏸 </p>
+	</fieldset>
+	<marquee behavior="scroll" direction="up" scrollamount="10">
+	<img src="\Grp4.JPEG" alt="Image" id="i4"  >
+	</marquee>
+    <img src="\Maggie.JPEG" alt="Image"class="image" id="Maggie" >
+	<fieldset class="summa" id="myFi" style="display: none;">
+		<p>Name: Meganathan S<br><br> Call as : Maggie <br><br>Work : Studing for NEET (Future Doctor 👨🏻‍⚕️) <br><br>  Location: Namakkal(Namakkal)<br><br>Hobby : Currently styding </p>
+	</fieldset>
+	
+	</center>
+	</fieldset>
+</body>
+<script>
+       var showButton = document.getElementById("Logesh");
+        var myFieldset = document.getElementById("myFieldset");
+        var showButto = document.getElementById("Maith");
+        var myFieldse = document.getElementById("myFieldse");
+		var showButt = document.getElementById("Kiruba");
+        var myFields = document.getElementById("myFields");
+		var showBut = document.getElementById("Mano");
+        var myField = document.getElementById("myField");
+		var showBu = document.getElementById("Karthi");
+        var myFiel = document.getElementById("myFiel");
+		var showB = document.getElementById("Madhan");
+        var myFie = document.getElementById("myFie");
+		var show = document.getElementById("Maggie");
+        var myFi = document.getElementById("myFi");
+        // Add a click event listener to the button
+        showButton.addEventListener("click", function() {
+            // Toggle the visibility of the fieldset
+            if (myFieldset.style.display === "none") {
+                myFieldset.style.display = "block";
+            } else {
+                myFieldset.style.display = "none";
+            }
+	        });	
+       showButto.addEventListener("click", function() {
+            // Toggle the visibility of the fieldset
+            if (myFieldse.style.display === "none") {
+                myFieldse.style.display = "block";
+            } else {
+                myFieldse.style.display = "none";
+            }
+        });
+		showButt.addEventListener("click", function() {
+            // Toggle the visibility of the fieldset
+            if (myFields.style.display === "none") {
+                myFields.style.display = "block";
+            } else {
+                myFields.style.display = "none";
+            }
+        });
+			showBut.addEventListener("click", function() {
+            // Toggle the visibility of the fieldset
+            if (myField.style.display === "none") {
+                myField.style.display = "block";
+            } else {
+                myField.style.display = "none";
+            }
+        });
+		showBu.addEventListener("click", function() {
+            // Toggle the visibility of the fieldset
+            if (myFiel.style.display === "none") {
+                myFiel.style.display = "block";
+            } else {
+                myFiel.style.display = "none";
+            }
+        });
+		showB.addEventListener("click", function() {
+            // Toggle the visibility of the fieldset
+            if (myFie.style.display === "none") {
+                myFie.style.display = "block";
+            } else {
+                myFie.style.display = "none";
+            }
+        });
+		show.addEventListener("click", function() {
+            // Toggle the visibility of the fieldset
+            if (myFi.style.display === "none") {
+                myFi.style.display = "block";
+            } else {
+                myFi.style.display = "none";
+            }
+        });
+		
+    </script>
+</html>
